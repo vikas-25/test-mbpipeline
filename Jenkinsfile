@@ -6,7 +6,7 @@ pipeline {
    
      stage('Install Dependencies') { 
         steps { 
-           sh 'yum npm install -y' 
+           echo "Install Dependencies..."
         }
      }
      
